@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-
 (function(){
 	/**
 	 * Initiate the script.
@@ -15,7 +13,7 @@
 	/**
 	 * Apply any previously saved options to the text revealer instance.
 	 */
-	chrome.storage.sync.get([
+	storage.sync.get([
 		'skin',
 		'delay',
 		'merriamWebsterDictionary',
@@ -31,7 +29,7 @@
 	 * Update the instance with new options from the extension settings.
 	 * changes = { newValue: 'newExample', oldValue: 'oldExample }
 	 */
-	chrome.storage.onChanged.addListener(function(changes, namespace) {
+	storage.onChanged.addListener(function(changes, namespace) {
 		for (let key in changes) {
 			myTextRevealer.options[key] = changes[key].newValue;
 		}

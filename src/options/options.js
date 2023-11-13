@@ -14,7 +14,7 @@ function saveOptions() {
   if (!merriamWebsterDictionary) merriamWebsterDictionary = false;
   const maxTextCount = parseInt(document.getElementById('maxTextCount').value, 10) || 3;
 
-  chrome.storage.sync.set({
+  storage.sync.set({
     skin,
     delay,
     merriamWebsterDictionary,
@@ -34,7 +34,7 @@ function saveOptions() {
  * stored in chrome.storage.
  */
 function restoreOptions() {
-  chrome.storage.sync.get([
+  storage.sync.get([
     'skin',
     'delay',
     'merriamWebsterDictionary',

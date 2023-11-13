@@ -1,19 +1,18 @@
 {
-  "name": "Text Revealer",
-  "version": "1.0.0.200127",
   "manifest_version": 2,
+  "name": "Text Revealer",
   "description": "Reveal deeper information about text you highlight on a web page.",
-  "homepage_url": "https://github.com/jamigibbs/text-revealer-chrome-extension",
+  "version": "1.0.1",
+  "homepage_url": "https://github.com/semanticdata/text-revealer-firefox-extension",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "default_locale": "en",
   "options_ui": {
     "page": "src/options/index.html",
     "open_in_tab": false,
-    "chrome_style": true
+    "browser_style": true
   },
   "permissions": [
     "*://*/*",

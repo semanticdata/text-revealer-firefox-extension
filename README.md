@@ -1,6 +1,14 @@
 <img src="logo.jpg" alt="Text Revealer" width="100%"/>
 
-# TextRevealer Chrome Extension
+<p align=center>
+<img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/%7B298b10ce-2211-47d0-aad6-107b8a733fc5%7D">
+<img src="https://img.shields.io/amo/rating/%7B14390478-b41b-4e29-8307-8a3c714f7783%7D" />
+<img src="https://img.shields.io/amo/dw/%7B14390478-b41b-4e29-8307-8a3c714f7783%7D" />
+<img src="https://img.shields.io/amo/users/%7B14390478-b41b-4e29-8307-8a3c714f7783%7D" />
+<img src="https://img.shields.io/github/license/datastring/firefox-telegram-in-sidebar" />
+</p>
+
+## Introduction
 
 Reveal deeper information about highlighted text on a web page. When text is selected, a popover displays useful details about the text such as:
 
@@ -8,23 +16,13 @@ Reveal deeper information about highlighted text on a web page. When text is sel
 - Dictionary definition
 - ...and more to come.
 
-Demo: [https://jamigibbs.github.io/text-revealer-js/](https://jamigibbs.github.io/text-revealer-js/)
+[DEMO](https://jamigibbs.github.io/text-revealer-js/)
 
-There is also a [vanilla JS version](https://github.com/jamigibbs/text-revealer-js) available too. The script for this extension is generated from that project so please report any issues on [that repo](https://github.com/jamigibbs/text-revealer-js/issues/new/choose) unless it's a Chrome Extension specific issue.
+There is also a [vanilla JS version](https://github.com/jamigibbs/text-revealer-js) available. The script for this extension is generated from that project so please report any issues on [that repo](https://github.com/jamigibbs/text-revealer-js/issues/new/choose) unless it's a Firefox Extension specific issue.
 
 ## Preview
 
 [<img src="preview.gif" alt="Preview" />](https://jamigibbs.github.io/text-revealer-js/)
-
-## Loading In Chrome
-
-This extension isn't yet available on the Chrome Web Store (soon!). In the meantime, it can be installed with these steps:
-
-1. [Download this repository](https://github.com/jamigibbs/text-revealer-chrome-extension/archive/master.zip).
-2. Navigate to the Chrome menu > More Tools > Extensions
-3. Rename the folder from `text-revealer-chrome-extension-master` to `text-revealer-chrome-extension`
-3. Select "Load unpacked"
-4. Select the downloaded folder unzipped.
 
 ## Available Settings
 
@@ -32,8 +30,10 @@ After activating the extenion, settings are available by clicking the Text Revea
 
 <img src="settings.png" alt="Settings" width=400 />
 
-## Call for help
+## Acknowledgments
 
-Because this script is intended to be loaded across a wide variety of sites, it's difficult for a single person to test it against all of the many possibilities that it could encounter. So if you find an issue whether it be CSS or scripting, please [log an issue](https://github.com/jamigibbs/text-revealer-js/issues/new/choose) that includes the URL, screenshots, and a detailed explanation of the the issue you're seeing. Feature requests also welcome!
+This is the Firefox port of [Text Revealer](https://github.com/jamigibbs/text-revealer-js) by [Jami Gibbs](https://github.com/jamigibbs/).
 
+## License
 
+Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you see fit. That said, some acknowledgement would be well received.
