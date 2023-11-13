@@ -1,11 +1,12 @@
 <img src="logo.jpg" alt="Text Revealer" width="100%"/>
 
 <p align=center>
-<img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/%7B298b10ce-2211-47d0-aad6-107b8a733fc5%7D">
-<img src="https://img.shields.io/amo/rating/%7B14390478-b41b-4e29-8307-8a3c714f7783%7D" />
-<img src="https://img.shields.io/amo/dw/%7B14390478-b41b-4e29-8307-8a3c714f7783%7D" />
-<img src="https://img.shields.io/amo/users/%7B14390478-b41b-4e29-8307-8a3c714f7783%7D" />
-<img src="https://img.shields.io/github/license/datastring/firefox-telegram-in-sidebar" />
+  <img alt="Mozilla Add-on"
+    src="https://img.shields.io/amo/v/ 	{b5ca06cf-4c6e-40f6-b367-a20a6f2a15ee}">
+  <img src="https://img.shields.io/amo/rating/ 	{b5ca06cf-4c6e-40f6-b367-a20a6f2a15ee}" />
+  <img src="https://img.shields.io/amo/dw/ 	{b5ca06cf-4c6e-40f6-b367-a20a6f2a15ee}" />
+  <img src="https://img.shields.io/amo/users/ 	{b5ca06cf-4c6e-40f6-b367-a20a6f2a15ee}" />
+  <img src="https://img.shields.io/github/license/datastring/firefox-telegram-in-sidebar" />
 </p>
 
 ## Introduction

@@ -6,7 +6,7 @@ Text Revealer
 
 ## Summary (< 250 chars)
 
-Reveal deeper information about highlighted text on a web page. When text is selected, a popover displays useful details about the text such as: Wikipedia entries, Dictionary definitions, and more to come.
+Reveal deeper information about text you highlight on a web page. When text is selected, a popover displays useful details about the text such as: Wikipedia entries, Dictionary definitions, and more to come.
 
 ## Description
 
@@ -17,4 +17,4 @@ This Firefox Extension adds a new popover that appears when seecting text. It sh
 Toggle the extension by using the new floating bottom at the bottom left of the page. Once activated, it will generate a popover view after a delay that can be configured in the extension options accessed by goint to Add-ons -> Text Revealer -> Options.
 
 <b>Acknowledgments</b>  
-This is the Firefox port of [Text Revealer](https://github.com/jamigibbs/text-revealer-js) by [Jami Gibbs](https://github.com/jamigibbs/).
+This is the Firefox port of Text Revealer by Jami Gibbs.
