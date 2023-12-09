@@ -12,8 +12,8 @@
 
 Reveal deeper information about highlighted text on a web page. When text is selected, a popover displays useful details about the text such as:
 
-- Wikipedia entries
-- Dictionary definition
+- Wikipedia entries,
+- Dictionary definition,
 - ...and more to come.
 
 [DEMO](https://jamigibbs.github.io/text-revealer-js/)
@@ -24,13 +24,17 @@ There is also a [vanilla JS version](https://github.com/jamigibbs/text-revealer-
 
 ## Preview
 
+<p align=center>
 <img src="preview.gif" alt="Preview" />
+</p>
 
 ## Available Settings
 
 After activating the extenion, settings are available by clicking the Text Revealer icon in your browser navigation bar and selecting "Options":
 
+<p align=center>
 <img src="settings.png" alt="Settings" width=400 />
+</p>
 
 ## Changes from Original
 

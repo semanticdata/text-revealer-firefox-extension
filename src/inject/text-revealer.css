@@ -313,6 +313,7 @@
   ::selection {
     background: inherit !important;
     color: #000000 !important;
+
     a {
       color: darkorange;
     }

@@ -19,11 +19,11 @@ function saveOptions() {
     delay,
     merriamWebsterDictionary,
     maxTextCount
-  }, function(res) {
+  }, function (res) {
     // Update status to let user know options were saved.
     const status = document.getElementById('status');
     status.textContent = 'Options saved!';
-    setTimeout(function() {
+    setTimeout(function () {
       status.textContent = '';
     }, 750);
   });
@@ -39,7 +39,7 @@ function restoreOptions() {
     'delay',
     'merriamWebsterDictionary',
     'maxTextCount'
-  ], function(items) {
+  ], function (items) {
     document.getElementById('skin').value = items.skin || 'light';
     document.getElementById('delay').value = items.delay || 500;
     document.getElementById('dictionaryKey').value = items.merriamWebsterDictionary || '';

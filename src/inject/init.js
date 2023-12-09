@@ -1,4 +1,4 @@
-(function(){
+(function () {
 	/**
 	 * Initiate the script.
 	 */
@@ -18,7 +18,7 @@
 		'delay',
 		'merriamWebsterDictionary',
 		'maxTextCount'
-	], function(items) {
+	], function (items) {
 		myTextRevealer.options.merriamWebsterDictionary = items.merriamWebsterDictionary || false
 		myTextRevealer.options.delay = items.delay || 500;
 		myTextRevealer.options.skin = items.skin || 'light';
@@ -29,7 +29,7 @@
 	 * Update the instance with new options from the extension settings.
 	 * changes = { newValue: 'newExample', oldValue: 'oldExample }
 	 */
-	storage.onChanged.addListener(function(changes, namespace) {
+	storage.onChanged.addListener(function (changes, namespace) {
 		for (let key in changes) {
 			myTextRevealer.options[key] = changes[key].newValue;
 		}
