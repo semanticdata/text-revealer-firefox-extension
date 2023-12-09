@@ -309,13 +309,12 @@
   border-radius: 50%;
 }
 
-.trjs-popover {
-  ::selection {
-    background: inherit !important;
-    color: #000000 !important;
+.trjs-popover::selection a {
+  color: darkorange;
+}
 
-    a {
-      color: darkorange;
-    }
-  }
+.trjs-popover::selection {
+
+  background: inherit !important;
+  color: #000000 !important;
 }
