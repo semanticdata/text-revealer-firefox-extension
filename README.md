@@ -6,8 +6,6 @@
 ![Mozilla Add-on Users](https://img.shields.io/amo/users/{b5ca06cf-4c6e-40f6-b367-a20a6f2a15ee})
 ![GitHub License](https://img.shields.io/github/license/semanticdata/firefox-brave-search)
 
-## Introduction
-
 Reveal deeper information about highlighted text on a web page. When text is selected, a popover displays useful details about the text such as:
 
 - Wikipedia entries,
