@@ -23,7 +23,7 @@
   color: #f74547 !important;
   font-weight: normal;
   text-decoration: none;
-  transition: color .4s ease;
+  transition: color 0.4s ease;
 }
 
 .trjs a:hover {
@@ -81,7 +81,7 @@
   font-style: normal;
 }
 
-.trjs dfn>.trjs-popover {
+.trjs dfn > .trjs-popover {
   background-color: #ffffff;
   border: none;
   -webkit-box-shadow: 0px 0px 5px 1px #cccccc;
@@ -95,7 +95,7 @@
   width: 400px !important;
 }
 
-.trjs dfn>.trjs-popover--dark {
+.trjs dfn > .trjs-popover--dark {
   background-color: #222831 !important;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -213,7 +213,7 @@
   height: 32px;
   stroke-width: 0;
   stroke: #aaaaaa !important;
-  transition: fill .4s ease;
+  transition: fill 0.4s ease;
   width: 32px;
 }
 
@@ -258,17 +258,17 @@
   height: 0;
 }
 
-.trjs-toggle-container .switch input:checked+.slider {
+.trjs-toggle-container .switch input:checked + .slider {
   /* background-color: #2196F3; */
   background-color: palevioletred;
 }
 
-.trjs-toggle-container .switch input:focus+.slider {
+.trjs-toggle-container .switch input:focus + .slider {
   /* box-shadow: 0 0 1px #2196F3; */
   box-shadow: 0 0 1px palevioletred;
 }
 
-.trjs-toggle-container .switch input:checked+.slider:before {
+.trjs-toggle-container .switch input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -284,8 +284,8 @@
   padding: 0;
   position: absolute;
   top: 0;
-  transition: .4s;
-  -webkit-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
   width: 100%;
 }
 
@@ -297,8 +297,8 @@
   left: 4px;
   bottom: 4px;
   background-color: #ffffff;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .trjs-toggle-container .slider.round {
@@ -314,7 +314,6 @@
 }
 
 .trjs-popover::selection {
-
   background: inherit !important;
   color: #000000 !important;
 }
