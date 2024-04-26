@@ -16,7 +16,7 @@ Reveal deeper information about highlighted text on a web page. When text is sel
 
 There is also a [vanilla JS version](https://github.com/jamigibbs/text-revealer-js) available. The script for this extension is generated from that project so please report any issues on [that repo](https://github.com/jamigibbs/text-revealer-js/issues/new/choose) unless it's a Firefox Extension specific issue.
 
-## Preview
+## 🖼 Preview
 
 <p align=center>
 <img src="preview.gif" alt="Preview" />
